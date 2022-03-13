@@ -1,13 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
+  <link rel="stylesheet" href="CSS/donut.css" />
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Donut Clicker</title>
   </head>
-  <body>
-    <div class="container"></div>
-    <script src="./index.js"></script>
+  <body class="body">
+    <section>
+      <h1 class="heading">SpringField's Donut Factory</h1>
+      <div class="dropdown">
+        <button class="dropbtn">Dropdown</button>
+        <div class="dropdown-content">
+        <a href="#">About</a>
+        <a href="#">Inspiration</a>
+        <a href="#">Contacts</a>
+        </div>
+      </div>
+    </section>
+    <div class="simpsonGif"></div>
+    <div class="gif">
+      <div
+        style="width: 100%; height: 0; padding-bottom: 76%; position: relative"
+      >
+        <iframe
+          src="https://giphy.com/embed/3orif562uCVwgPwjRK"
+          width="100%"
+          height="100%"
+          style="position: absolute"
+          frameborder="0"
+          class="giphy-embed"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </div>
+    <main>
+      <div class="container">
+        <section>
+          <h1 class="DonutCount">0</h1>
+          <img class="donutImg" src="img/DonutClicker.jpg" />
+        </section>
+        <section>
+          <h2 class="AutoclickerCount">Auto Clicker Count</h2>
+          <button class="Auto-Clicker">Buy Auto Clicker</button>
+        </section>
+        <section>
+          <h3 class="DonutMultiplierCount">Donut Multplier Count</h3>
+          <button class="Donut-Multiplier">Donuts Multiplier</button>
+        </section>
+        <section>
+          <button class = "resetButton">Reset</button>
+        </section>
+      </div>
+    
+    </main>
   </body>
+  <script src="./JS/index.js" type="module"></script>
 </html>
