@@ -1,0 +1,92 @@
+
+
+
+
+
+.donutImg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  height: 200px;
+  width: 200px;
+}
+.body {
+  background: #f5cdf4 no-repeat scroll 100% 0%;
+}
+.gif {
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  
+  
+}
+.heading {
+  display: flex;
+  justify-content: center;
+  height: 50px;
+  align-items: center;
+  position: sticky;
+  top: 0;
+}
+.menu{
+  display: flex;
+  justify-content: right;
+  height: 50px;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  text-indent: 50px;
+  list-style: none;
+  padding-right: 90px;
+}
+.DonutCount{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+ 
+}
+
+.dropbtn {
+  background-color: #b1233b;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #b6ae3c;
+}
+
